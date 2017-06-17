@@ -28,6 +28,8 @@ public class Main2Activity extends AppCompatActivity {
         String showText4 = "Gpax :"+intent.getStringExtra("GPAX");
         String showText = "Firstname :"+intent.getStringExtra("Firstname");
 
+        String showCountry = "Country :"+ intent.getStringExtra("country");
+
         TextView txt = (TextView) findViewById(R.id.textView);
         txt.setText(showText);
 
@@ -39,6 +41,9 @@ public class Main2Activity extends AppCompatActivity {
 
         TextView txt4 = (TextView) findViewById(R.id.textView4);
         txt4.setText(showText4);
+
+        TextView thx5 = (TextView) findViewById(R.id.textView7);
+        thx5.setText(showCountry);
     }
 
 
